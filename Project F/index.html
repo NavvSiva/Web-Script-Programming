@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+
+        <title>Portfolio</title>
+    </head>
+    
+<!------------------HEADER & TAG Section------------------------------------>
+    <body>
+        <header>
+            <a href="index.html" class="home">Abhinav Sivasakthi</a>
+        </header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#myprojects">Projects</a>
+                    </li>
+                    <li>
+                    <a href="#ContactMe">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+<!------------------END HEADER & TAG Section--------------------------------------->
+
+
+<!------------------MAIN PAGE Section---------------------------------------------->
+        <div class="main-page">
+            <img src="main.jpg" class="image" height="220" width="220">
+            <div class="main-text">
+                <h1><span>Welcome</span>, To My Portfolio!</h1>
+                <p>Feel Free to Click Around and Explore</p>
+            </div>
+        </div>
+<!------------------END MAIN PAGE Section------------------------------------------->
+        
+
+<!------------------ABOUT ME Section------------------------------------------------>
+        <section id="about">
+            <div class="about-container">
+                <div class="colLeft">
+                    <div class="vid">
+                        <video src="on_record.mp4" controls></video>
+                    </div>
+
+                    <div class="AboutMe">
+                        <h1>About Me</h1>
+                        <p>
+                            I’m currently a second-year student at the University of Ontario Tech, 
+                            majoring in Networking and IT Security. My passion for technology and 
+                            security has driven me to pursue a career in this wonderful field.
+                            <br><br>
+                            Before diving into the world of networking and security, I completed 
+                            an advanced diploma in Aviation Operations. I’ve always been fascinated 
+                            by systems that work behind the scenes, whether it’s planes in the sky
+                            or cybersecurity. The aviation world taught me precision, quick 
+                            thinking, and how to keep cool when things get turbulent.
+                            <br><br>
+                            I believe that understanding both the technical and human aspects of 
+                            security is essential, and I’m excited to keep learning and growing in 
+                            this field, contributing to a safer and more connected world.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!------------------END ABOUT ME Section--------------------------------------->
+
+
+<!------------------MY PROJECTS Section---------------------------------------->
+        <section id="myprojects">
+            <div class="project-container">
+
+                <article class="project">
+                    <img src="P1.jpg" height="220" width="220">
+                    <ul class="p-comments">
+                        <h2>Hardware Encryption</h2>
+                        <p>In this project, I explored the role of hardware encryption 
+                            in securing automotive systems, wireless sensor networks, 
+                            instant messaging, and IoT devices. My research highlights
+                            the shift from traditional Trusted Platform Modules (TPMs)
+                            to firmware-based TPMs, embedded directly within CPUs.
+                            This integration enhances system security and efficiency.
+                            Key findings from IEEE papers emphasize how hardware encryption 
+                            improves energy efficiency, operational speed, and resilience 
+                            against cyber threats.</p>
+                    </ul>
+                </article>
+
+                <article class="project">
+                    <img src="P2.jpg" height="220" width="220">
+                    <ul class="p-comments">
+                        <h2>CryptoMine Network Configuration</h2>
+                        <p>As part of a group, I helped develop a comprehensive network solution 
+                            for CryptoMine, a newly merged cryptocurrency mining company with 
+                            branches across North America. Using Cisco Packet Tracer, our team 
+                            configured a dedicated WAN using BGP to connect offices in Chicago, 
+                            Vancouver, Toronto, and Mexico. The project included setting up VLANs, 
+                            EtherChannel, OSPF routing, BGP, inter-VLAN routing, and trunking 
+                            across multiple sites. We also designed a secure remote access solution 
+                            from Ontario Tech Residence, allowing full management of the network 
+                            infrastructure.</p>
+                    </ul>
+                </article>
+
+                <article class="project">
+                    <img src="P3.jpg" height="220" width="220">
+                    <ul class="p-comments">
+                        <h2>EV Charging Station Route Optimization</h2>
+                        <p>In this group project for my Algorithms and Data Structures class, we 
+                            developed an EV Charging Station Route Optimization application using 
+                            Python. By implementing Dijkstra’s algorithm, we calculated the shortest 
+                            path to charging stations, helping EV users navigate efficiently. The 
+                            project involved collecting data in a CSV format, creating a graph of 
+                            nodes and connections, and utilizing Python libraries like NetworkX and 
+                            Matplotlib for visualization. This project demonstrated how algorithms 
+                            can optimize real-world navigation challenges, enhancing EV charging 
+                            infrastructure.</p>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <br>
+        <br>
+<!--------------------END MY PROJECTS Section----------------------------------->
+
+
+<!--------------------CONTACT ME Section---------------------------------------->
+        <section id="ContactMe">
+            <div class="contact-container">
+                <h2>Contact Me</h2>
+                <form action="Abhinav: abhinav.sivasakthi@ontariotechu.net"
+                method="post" enctype="text/plain" ?subject=Mistakes
+                name="form" class="form">
+
+                <p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Enter Name" size="32" required>
+                </p>
+
+                <p>
+                <label for="email">Email:</label>
+                <input type="text" name="email" placeholder="Enter Email Address" size="32" required>
+                </p>
+                
+                <p>
+                    <label for="questions">Questions:</label>
+                    <textarea name="questions" cols="40" rows="8" placeholder="Enter Your Query"></textarea>
+                </p>
+
+                <p>
+                    <label for="robot-check">What is 10 + 9 (Robot Check):</label>
+                    <input type="text" id="robot-check" name="robot-check" placeholder="Enter your answer" required>
+                </p>
+
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+            </div>
+        </section>
+
+        <br>
+        <br>
+    </body>
+</html>

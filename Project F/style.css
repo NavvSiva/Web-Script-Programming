@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    cursor: crosshair;
+}
+
+body {
+    background-image: url(background.png);
+}
+
+header {
+    top: 0;
+    left: 0;
+    padding: 10px;
+    position: fixed; 
+    width: 100%;
+    z-index: 1000; 
+    text-align: center;
+    font-weight: 500;
+}
+
+.home {
+    font-size: 30px;
+    color: goldenrod;
+    cursor: grab;
+    transition: 0.4s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -5px;
+    font-weight: 580;
+}
+
+nav {
+    position: fixed; 
+    top: 40px; 
+    width: 100%; 
+    background-color: rgba(255, 255, 255, 0.35); 
+    z-index: 999; 
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    list-style-type: none;
+    padding: 10px 0; 
+    margin: 0;
+}
+
+
+nav ul li {
+    margin: 0 30px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: lightgray;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: goldenrod;
+}
+
+.main-page {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    padding: 20px;
+    margin: 20px 10%;
+    flex: wrap;
+
+}
+
+.main-text{
+    margin: 20%;
+    color: lightgray;
+    max-width: 60%;
+}
+
+.main-text h1{
+    font-size: 3.5vw;
+    margin-top: 20px;
+}
+
+.main-text h1 span{
+    color: goldenrod;
+}
+
+.main-text p{
+    font-size: 2vw;
+}
+
+.image{
+    width: 28vw;
+    height: auto;
+    object-fit: cover;
+    border-radius: 25%;
+    margin-right: 20px;
+    margin-top: 10%;
+    transition: transform 0.4s ease;
+    border: 1px solid goldenrod;
+    
+}
+
+.image:hover {
+    transform: scale(1.1); 
+}
+
+#about {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 50px;
+    margin: 20px 0%;
+    flex-wrap: wrap; 
+    color: white;
+}
+
+.vid {
+    flex: 1;
+    min-width: 50vw; 
+    max-width: 45%; 
+    margin-right: 2vw;
+}
+
+.vid video {
+    width: 100%; 
+    height: auto; 
+}
+
+.AboutMe {
+    flex: 1;
+    min-width: 80vw; 
+    max-width: 45%; 
+    margin-left: 2vw;
+}
+
+.AboutMe h1 {
+    color: goldenrod;
+}
+
+
+#myproject {
+    flex-wrap: wrap;
+    margin: 20px 10%;
+}
+
+.p-comments p{
+    color: white;
+}
+
+.p-comments h2{
+    color: white;
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.project img{
+    width: 20vw;
+    height: auto;
+    border-radius: 20px;
+    border: 3.5px solid goldenrod;
+}
+
+.p-comments{
+    list-style-type: disc;
+    padding-left: 20px;
+    width: 20vw;
+    text-align: left;
+}
+
+
+#ContactMe{
+    background-color: goldenrod;
+    padding: 50px;
+    text-align: center;
+}
+.contact-container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black ;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+}
+
+.contact-container h2{
+    color: white;
+}
+
+.form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form label{
+    font-size: 18px;
+    text-align: left;
+}
+
+.form input, .form textarea{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+}
+
+.form textarea{
+    resize: vertical;
+}
+
+.form button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: grab;
+    transition: background-color 0.3s ease;
+
+}
+
+.form button:hover{
+    background-color: darkorange;
+}
