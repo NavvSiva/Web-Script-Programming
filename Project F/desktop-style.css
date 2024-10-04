@@ -1,3 +1,23 @@
+/* Media Query For desktop Users */
+@media only screen and (min-width:1200px)
+{
+
+
+body{
+    background-image: url(background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header{
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px;
+
+}
+
 .home {
     font-size: 30px;
     margin-top: -5px;
@@ -7,14 +27,30 @@ nav ul li a {
     font-size: 18px;
     margin: 0 30px;
 }
-
+ 
 .main-page {
-    flex-direction: row;
-    margin: 20px 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto; 
+    max-width: 1200px; 
+    flex-wrap: wrap;
+    overflow: hidden; 
 }
 
 .image {
     width: 28vw;
+    height: auto;
+    object-fit: cover;
+    border-radius: 25%;
+    margin: 0 20px;
+    transition: transform 0.4s ease;
+    border: 3px solid #daa520;
+    flex-shrink: 0;
+}
+.main-text{
+
 }
 
 .main-text h1 {
@@ -42,4 +78,6 @@ nav ul li a {
 
 .contact-container {
     padding: 50px;
+}
+
 }

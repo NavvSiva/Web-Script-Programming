@@ -19,6 +19,9 @@ header {
     z-index: 1000; 
     text-align: center;
     font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .home {
@@ -63,7 +66,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: goldenrod;
+    color: #daa520;
 }
 
 .main-page {
@@ -88,7 +91,7 @@ nav ul li a:hover {
 }
 
 .main-text h1 span{
-    color: goldenrod;
+    color: #daa520;
 }
 
 .main-text p{
@@ -103,7 +106,7 @@ nav ul li a:hover {
     margin-right: 20px;
     margin-top: 10%;
     transition: transform 0.4s ease;
-    border: 1px solid goldenrod;
+    border: 3px solid #daa520;
     
 }
 
@@ -141,7 +144,7 @@ nav ul li a:hover {
 }
 
 .AboutMe h1 {
-    color: goldenrod;
+    color: #daa520;
 }
 
 
@@ -169,7 +172,7 @@ nav ul li a:hover {
     width: 20vw;
     height: auto;
     border-radius: 20px;
-    border: 3.5px solid goldenrod;
+    border: 3.5px solid #daa520;
 }
 
 .p-comments{
@@ -181,7 +184,7 @@ nav ul li a:hover {
 
 
 #ContactMe{
-    background-color: goldenrod;
+    background-color: #daa520;
     padding: 50px;
     text-align: center;
 }
@@ -226,7 +229,7 @@ nav ul li a:hover {
 .form button{
     padding: 10px;
     font-size: 20px;
-    background-color: goldenrod;
+    background-color: #daa520;
     color: white;
     border: none;
     border-radius: 5px;
@@ -236,5 +239,5 @@ nav ul li a:hover {
 }
 
 .form button:hover{
-    background-color: darkorange;
+    background-color: #ff8c00;
 }
