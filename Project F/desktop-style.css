@@ -1,0 +1,45 @@
+.home {
+    font-size: 30px;
+    margin-top: -5px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    margin: 0 30px;
+}
+
+.main-page {
+    flex-direction: row;
+    margin: 20px 10%;
+}
+
+.image {
+    width: 28vw;
+}
+
+.main-text h1 {
+    font-size: 3.5vw;
+}
+
+.main-text p {
+    font-size: 2vw;
+}
+
+#about {
+    flex-direction: row;
+    margin: 20px 10%;
+}
+
+.project-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.project img {
+    width: 20vw;
+}
+
+.contact-container {
+    padding: 50px;
+}
