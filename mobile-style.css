@@ -1,26 +1,148 @@
 @media only screen and (max-width: 480px) {
 
-/* --- Main Page Style Section --- */
-    body {
-        background-image: url(background.png);
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center;
-    }
-    
-    header {
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-        padding: 10px;
-    }
-    
-    nav ul li {
-        margin: 10px 0; 
-    }
 
-
-    
+body {
+    background-image: url(background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 15px 0;
+}
+
+nav ul li a {
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    width: 100%; 
+    text-align: center; 
+}
+
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+}
+
+.image {
+    width: 70vw;
+    margin-bottom: 20px;
+}
+
+.main-text {
+    width: 90vw;
+    text-align: center;
+}
+
+.main-text h1 {
+    font-size: 5vw;
+}
+
+.main-text p {
+    font-size: 4vw;
+}
+
+
+#about {
+    padding: 50px 20px;
+}
+
+.vid {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.AboutMe {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.AboutMe p {
+    font-size: 4vw;
+}
+
+.AboutMe h1 {
+    font-size: 5vw;
+}
+
+
+#myprojects {
+    margin: 20px 5%;
+    padding: 30px 0;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project img {
+    width: 70vw;
+    margin-bottom: 20px;
+}
+
+.p-comments {
+    width: 85vw;
+    margin-bottom: 30px;
+}
+
+
+#ContactMe {
+    padding: 20px;
+}
+
+.contact-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form label {
+    font-size: 16px;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    font-size: 14px;
+}
+
+.form button {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+}
+
 
 
