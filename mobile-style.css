@@ -55,11 +55,11 @@ nav ul li a {
 }
 
 .main-text h1 {
-    font-size: 10vw;
+    font-size: 20px;
 }
 
 .main-text p {
-    font-size: 10vw;
+    font-size: 15px;
 }
 
 
@@ -90,6 +90,23 @@ nav ul li a {
 #myprojects {
     margin: 20px 5%;
     padding: 30px 0;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project img {
+    width: 70vw;
+    margin-bottom: 20px;
+}
+
+.p-comments {
+    width: 85vw;
+    margin-bottom: 30px;
 }
 
 
