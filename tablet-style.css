@@ -14,7 +14,7 @@ header {
     z-index: 1000;
     padding: 10px;
 }
-
+/* --- Main Page Style Section --- */
 .main-page {
     display: flex;
     justify-content: center; 
@@ -34,21 +34,57 @@ header {
     margin-right: 50px;
 
 }
+/* --- END of Main Page Style Section --- */
 
 
+
+/* --- About Me Style Section --- */
 #about {
     padding: 100px 50px;
 }
 
+.vid{
+    float: none;
+    width: 100%;
+}
+
+.AboutMe{
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* --- END of About Me Style Section --- */
+
+
+/* --- My Projects Style Section --- */
+
+#myprojects {
+    margin: 20px 5%;
+    padding: 50px 0;
+}
+
+.project-container {
+    align-items: center;
+    justify-content: center;
+}
+
+.project img {
+    width: 27vw; 
+    margin-bottom: 20px;
+}
+/* --- END of My Projects Style Section --- */
 
 
 
+/* --- Contact Me Style Section --- */
 
+#ContactMe {
+    padding: 30px;
+    text
+}
 
-
-
-
-
+/* --- END of Contact Me Style Section --- */
 
 
 
