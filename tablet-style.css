@@ -96,9 +96,24 @@ header {
 /* --- Contact Me Style Section --- */
 
 #ContactMe {
-    padding: 30px;
-
+    padding: 30px; 
+    text-align: center;
 }
+
+.contact-container {
+    max-width: 400px; 
+    border-radius: 10px;
+    box-shadow: 0 10px 20px black;
+}
+
+.form input, .form textarea {
+    width: 100%; 
+    padding: 8px; 
+}
+
+.form button {
+    padding: 8px; 
+    font-size: 18px; 
 
 /* --- END of Contact Me Style Section --- */
 
