@@ -184,7 +184,7 @@ nav ul li a:hover {
 
 
 #ContactMe{
-    background-color: #daa520;
+    background: linear-gradient(to bottom, white, orange);
     padding: 50px;
     text-align: center;
 }
