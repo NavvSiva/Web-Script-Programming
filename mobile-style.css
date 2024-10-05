@@ -22,6 +22,8 @@ nav ul {
     justify-content: center; 
     padding: 0;
     margin: 0;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
 } 
 
 nav ul li {
@@ -90,22 +92,6 @@ nav ul li a {
     padding: 30px 0;
 }
 
-.project-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.project img {
-    width: 70vw;
-    margin-bottom: 20px;
-}
-
-.p-comments {
-    width: 85vw;
-    margin-bottom: 30px;
-}
 
 
 #ContactMe {
