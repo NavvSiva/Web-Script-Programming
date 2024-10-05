@@ -65,14 +65,22 @@ header {
 }
 
 .project-container {
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .project img {
-    width: 27vw; 
+    width: 60vw; 
     margin-bottom: 20px;
+    margin-top: 30px;
 }
+
+.p-comments {
+    width: 80vw; /* Full width comments on tablet */
+    margin-bottom: 30px;
+}
+
 /* --- END of My Projects Style Section --- */
 
 
