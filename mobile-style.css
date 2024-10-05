@@ -1,6 +1,6 @@
 @media only screen and (max-width: 480px) {
 
-
+/* --- Main Page Style Section --- */
     body {
         background-image: url(background.png);
         background-size: cover;
@@ -25,8 +25,9 @@
         font-size: larger; 
 
     }
-
-
-
 }
+
+/* --- I tested all the changes on
+phone and it seesm to be working well with fewer changes --- */
+
 
