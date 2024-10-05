@@ -1,3 +1,5 @@
+/* Original Style */
+
 * {
     margin: 0;
     padding: 0;
@@ -76,7 +78,6 @@ nav ul li a:hover {
     padding: 20px;
     margin: 20px 10%;
     flex: wrap;
-
 }
 
 .main-text{
@@ -115,20 +116,17 @@ nav ul li a:hover {
 }
 
 #about {
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between;
-    padding: 50px;
-    margin: 20px 0%;
-    flex-wrap: wrap; 
+    overflow: hidden;
+    padding-right: 150px;
+    padding-left: 150px;
     color: white;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 
 .vid {
-    flex: 1;
-    min-width: 50vw; 
-    max-width: 45%; 
-    margin-right: 2vw;
+    float: right;
+    width: 45%; 
 }
 
 .vid video {
@@ -137,9 +135,8 @@ nav ul li a:hover {
 }
 
 .AboutMe {
-    flex: 1;
-    min-width: 80vw; 
-    max-width: 45%; 
+    float: left;
+    width: 45%; 
     margin-left: 2vw;
 }
 
@@ -148,9 +145,11 @@ nav ul li a:hover {
 }
 
 
-#myproject {
+#myprojects {
     flex-wrap: wrap;
     margin: 20px 10%;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .p-comments p{
@@ -187,6 +186,8 @@ nav ul li a:hover {
     background: linear-gradient(to bottom, white, orange);
     padding: 50px;
     text-align: center;
+
+    
 }
 .contact-container{
     max-width: 600px;
@@ -241,3 +242,8 @@ nav ul li a:hover {
 .form button:hover{
     background-color: #ff8c00;
 }
+
+.contact-container h2{
+    color: #daa520;
+}
+

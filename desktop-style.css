@@ -50,7 +50,8 @@ nav ul li a {
     flex-shrink: 0;
 }
 .main-text{
-
+    width: 15vw;
+    height: auto;
 }
 
 .main-text h1 {
@@ -59,11 +60,6 @@ nav ul li a {
 
 .main-text p {
     font-size: 2vw;
-}
-
-#about {
-    flex-direction: row;
-    margin: 20px 10%;
 }
 
 .project-container {
@@ -81,3 +77,4 @@ nav ul li a {
 }
 
 }
+
