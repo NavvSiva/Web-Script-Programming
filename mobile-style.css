@@ -19,8 +19,14 @@
         margin: 10px 0; 
     }
 
+    .main-text{
+        width: 50vw;
+        height: auto;
+        font-size: larger; 
 
-    
+    }
+
+
 
 }
 
