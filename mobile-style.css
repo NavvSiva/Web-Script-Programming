@@ -14,83 +14,28 @@
         z-index: 1000;
         padding: 10px;
     }
+
     /* --- Main Page Style Section --- */
     .main-page {
         display: flex;
         justify-content: center; 
         margin: -20px auto;
-        max-width: 960px; 
+        max-width: 480px; 
         flex-wrap: wrap;
     }
     
-    .image {
-        width: 40vw;
+    nav ul li {
+        margin: 10px 0; /* Add some margin between each link */
+    }
+  
+    nav ul li a {
+        font-size: 16px; 
+        padding: 10px 20px; 
+        text-align: center; 
+        width: 100%; 
+        box-sizing: border-box;
     }
     
-    .main-text {
-        width: 50vw; 
-        height: auto;
-        margin-top: 10px; 
-        margin-right: 50px;
-    
-    }
-    /* --- END of Main Page Style Section --- */
-    
-    
-    
-    /* --- About Me Style Section --- */
-    #about {
-        padding: 100px 50px;
-    }
-    
-    .vid{
-        float: none;
-        width: 100%;
-    }
-    
-    .AboutMe{
-        float: none;
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    
-    /* --- END of About Me Style Section --- */
-    
-    
-    /* --- My Projects Style Section --- */
-    
-    #myprojects {
-        margin: 20px 5%;
-        padding: 50px 0;
-    }
-    
-    .project-container {
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .project img {
-        width: 27vw; 
-        margin-bottom: 20px;
-    }
-    /* --- END of My Projects Style Section --- */
-    
-    
-    
-    /* --- Contact Me Style Section --- */
-    
-    #ContactMe {
-        padding: 30px;
-    
-    }
-    
-    /* --- END of Contact Me Style Section --- */
-
-
-
-
-
-
 
 
 
