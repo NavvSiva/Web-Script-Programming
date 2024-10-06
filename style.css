@@ -183,7 +183,7 @@ nav ul li a:hover {
 
 
 #ContactMe{
-    background: linear-gradient(to bottom, white, orange);
+    background: linear-gradient(-20deg, white, orange);
     padding: 50px;
     text-align: center;
 
@@ -249,7 +249,7 @@ nav ul li a:hover {
 
 /* Footer Styles */
 #site-footer {
-    background: linear-gradient(to top,black,#66420A) ;
+    background: linear-gradient(to bottom,black,#66420A) ;
     color: white;
     text-align: center;
     padding: 20px;
