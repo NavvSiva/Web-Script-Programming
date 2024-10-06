@@ -247,3 +247,28 @@ nav ul li a:hover {
     color: #daa520;
 }
 
+/* Footer Styles */
+#site-footer {
+    background: linear-gradient(to top,black,#66420A) ;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+#site-footer a {
+    color: #daa520; 
+    text-decoration: none;
+}
+
+#site-footer a:hover {
+    color: #ff8c00;
+}
+
+.footer-content p {
+    margin: 0;
+    padding: 0;
+}
