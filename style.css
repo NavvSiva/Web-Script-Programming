@@ -78,7 +78,7 @@ nav ul li a:hover {
     align-items: center; 
     padding: 20px;
     margin: 20px 10%;
-    flex: wrap;
+    flex-wrap: wrap;
 }
 
 .main-text{
