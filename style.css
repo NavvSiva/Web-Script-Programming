@@ -137,7 +137,10 @@ nav ul li a:hover {
 .vid video {
     width: 100%; 
     height: auto; 
+    border: 5px solid goldenrod; 
+    border-radius: 10px; 
 }
+
 
 .AboutMe {
     float: left;
