@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/desktop-style.css" media="(min-width: 960px)">
+    <link rel="stylesheet" href="/stylesheets/tablet-style.css" media="(min-width:481px) and (max-width:960px)">
+    <link rel="stylesheet" href="/stylesheets/mobile-style.css" media="(max-width:480px)">
+    <title><%= title %></title>
+</head>
+
+<body>
+    <header>
+        <a href="/" class="home">Abhinav Sivasakthi</a>
+    </header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section id="ContactMe">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <form action="mailto:abhinav.sivasakthi@ontariotechu.net" method="post" enctype="text/plain">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" placeholder="Enter Name" size="32" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Enter Email Address" size="32" required>
+                </p>
+                <p>
+                    <label for="questions">Questions:</label>
+                    <textarea name="questions" cols="40" rows="8" placeholder="Enter Your Query"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <footer id="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2024 by Abhinav Sivasakthi. Contact at <a href="mailto:abhinav.sivasakthi@ontariotechu.net">abhinav.sivasakthi@ontariotechu.net</a></p>
+        </div>
+    </footer>
+</body>
+</html>
