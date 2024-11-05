@@ -1,86 +1,51 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/stylesheets/style.css">
-    <link rel="stylesheet" href="/stylesheets/desktop-style.css" media="(min-width: 960px)">
-    <link rel="stylesheet" href="/stylesheets/tablet-style.css" media="(min-width:481px) and (max-width:960px)">
-    <link rel="stylesheet" href="/stylesheets/mobile-style.css" media="(max-width:480px)">
-    <title><%= title %></title>
-</head>
-
-<body>
-    <header>
-        <a href="/" class="home">Abhinav Sivasakthi</a>
-    </header>
-    <div class="container">
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/contact">Contact</a></li>
+<section id="myprojects">
+    <div class="project-container">
+        <article class="project">
+            <img src="/images/P1.jpg" height="220" width="220">
+            <ul class="p-comments">
+                <h2>Hardware Encryption</h2>
+                <p>In this project, I explored the role of hardware encryption 
+                    in securing automotive systems, wireless sensor networks, 
+                    instant messaging, and IoT devices. My research highlights
+                    the shift from traditional Trusted Platform Modules (TPMs)
+                    to firmware-based TPMs, embedded directly within CPUs.
+                    This integration enhances system security and efficiency.
+                    Key findings from IEEE papers emphasize how hardware encryption 
+                    improves energy efficiency, operational speed, and resilience 
+                    against cyber threats.</p>
             </ul>
-        </nav>
+        </article>
+
+        <article class="project">
+            <img src="/images/P2.jpg" height="220" width="220">
+            <ul class="p-comments">
+                <h2>CryptoMine Network Configuration</h2>
+                <p>Through collaborative work, I helped develop a comprehensive network solution 
+                    for CryptoMine, a newly merged cryptocurrency mining company with 
+                    branches across North America. Using Cisco Packet Tracer, our team 
+                    configured a dedicated WAN using BGP to connect offices in Chicago, 
+                    Vancouver, Toronto, and Mexico. The project included setting up VLANs, 
+                    EtherChannel, OSPF routing, BGP, inter-VLAN routing, and trunking 
+                    across multiple sites. We also designed a secure remote access solution 
+                    from Ontario Tech Residence, allowing full management of the network 
+                    infrastructure.</p>
+            </ul>
+        </article>
+
+        <article class="project">
+            <img src="/images/P3.jpg" height="220" width="220">
+            <ul class="p-comments">
+                <h2>EV Charging Station Route Optimization</h2>
+                <p>In this group project for my Algorithms and Data Structures class, we 
+                    developed an EV Charging Station Route Optimization application using 
+                    Python. By implementing Dijkstra’s algorithm, we calculated the shortest 
+                    path to charging stations, helping EV users navigate efficiently. The 
+                    project involved collecting data in a CSV format, creating a graph of 
+                    nodes and connections, and utilizing Python libraries like NetworkX and 
+                    Matplotlib for visualization. This project demonstrated how algorithms 
+                    can optimize real-world navigation challenges, enhancing EV charging 
+                    infrastructure.</p>
+            </ul>
+        </article>
     </div>
-
-    <section id="myprojects">
-        <div class="project-container">
-            <article class="project">
-                <img src="/images/P1.jpg" height="220" width="220">
-                <ul class="p-comments">
-                    <h2>Hardware Encryption</h2>
-                    <p>In this project, I explored the role of hardware encryption 
-                        in securing automotive systems, wireless sensor networks, 
-                        instant messaging, and IoT devices. My research highlights
-                        the shift from traditional Trusted Platform Modules (TPMs)
-                        to firmware-based TPMs, embedded directly within CPUs.
-                        This integration enhances system security and efficiency.
-                        Key findings from IEEE papers emphasize how hardware encryption 
-                        improves energy efficiency, operational speed, and resilience 
-                        against cyber threats.</p>
-                </ul>
-            </article>
-
-            <article class="project">
-                <img src="/images/P2.jpg" height="220" width="220">
-                <ul class="p-comments">
-                    <h2>CryptoMine Network Configuration</h2>
-                    <p>Through collaborative work, I helped develop a comprehensive network solution 
-                        for CryptoMine, a newly merged cryptocurrency mining company with 
-                        branches across North America. Using Cisco Packet Tracer, our team 
-                        configured a dedicated WAN using BGP to connect offices in Chicago, 
-                        Vancouver, Toronto, and Mexico. The project included setting up VLANs, 
-                        EtherChannel, OSPF routing, BGP, inter-VLAN routing, and trunking 
-                        across multiple sites. We also designed a secure remote access solution 
-                        from Ontario Tech Residence, allowing full management of the network 
-                        infrastructure.</p>
-                </ul>
-            </article>
-
-            <article class="project">
-                <img src="/images/P3.jpg" height="220" width="220">
-                <ul class="p-comments">
-                    <h2>EV Charging Station Route Optimization</h2>
-                    <p>In this group project for my Algorithms and Data Structures class, we 
-                        developed an EV Charging Station Route Optimization application using 
-                        Python. By implementing Dijkstra’s algorithm, we calculated the shortest 
-                        path to charging stations, helping EV users navigate efficiently. The 
-                        project involved collecting data in a CSV format, creating a graph of 
-                        nodes and connections, and utilizing Python libraries like NetworkX and 
-                        Matplotlib for visualization. This project demonstrated how algorithms 
-                        can optimize real-world navigation challenges, enhancing EV charging 
-                        infrastructure.</p>
-                </ul>
-            </article>
-        </div>
-    </section>
-
-    <footer id="site-footer">
-        <div class="footer-content">
-            <p>&copy; 2024 by Abhinav Sivasakthi. Contact at <a href="mailto:abhinav.sivasakthi@ontariotechu.net">abhinav.sivasakthi@ontariotechu.net</a></p>
-        </div>
-    </footer>
-</body>
-</html>
+</section>
