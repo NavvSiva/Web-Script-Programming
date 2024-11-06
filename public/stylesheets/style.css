@@ -157,42 +157,60 @@ nav ul li a:hover {
 
 /* --- My Project Style Section --- */
 #myprojects {
-    flex-wrap: wrap;
-    margin: 20px 10%;
+    margin: 0 auto;
     padding-top: 120px;
     padding-bottom: 120px;
+    text-align: center;
 }
 
-
-.p-comments p{
-    color: white;
-}
-
-.p-comments h2{
-    color: #daa520;
-}
-
-.project-container{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}
-
-.project img{
-    width: 20vw;
-    height: auto;
-    border-radius: 20px;
+#myprojects img {
+    width: 100%; /* Make the image responsive within its container */
+    max-width: 300px; /* Set a consistent max width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
     border: 3.5px solid #daa520;
+    margin-bottom: 15px;
 }
 
-.p-comments{
-    list-style-type: disc;
-    padding-left: 20px;
-    width: 30vw;
-    text-align: left;
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
 }
+
+.project {
+    background-color: #333;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px; 
+    text-align: center; 
+}
+
+.project img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+    border: 3.5px solid #daa520;
+    margin-bottom: 15px;
+}
+
+.p-comments h2 {
+    color: #daa520;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.p-comments p {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
 /* --- END of My Project Style Section --- */
+
 
 /* --- Contact Me Style Section --- */
 #ContactMe{
