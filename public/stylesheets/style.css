@@ -164,9 +164,9 @@ nav ul li a:hover {
 }
 
 #myprojects img {
-    width: 100%; /* Make the image responsive within its container */
-    max-width: 300px; /* Set a consistent max width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    max-width: 300px; 
+    height: auto;
     border-radius: 10px;
     border: 3.5px solid #daa520;
     margin-bottom: 15px;
@@ -213,71 +213,40 @@ nav ul li a:hover {
 
 
 /* --- Contact Me Style Section --- */
-#ContactMe{
+#ContactMe {
     background: linear-gradient(-20deg, white, orange);
     padding: 50px;
     text-align: center;
-
-    
-}
-.contact-container{
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: black ;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px black;
 }
 
-.contact-container h2{
-    color: white;
+#ContactMe .p-4 {
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.form {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+#ContactMe h2 {
+    color: goldenrod;
+    font-weight: bold;
 }
 
-.form label{
-    font-size: 18px;
-    text-align: left;
+#ContactMe label {
+    color: lightgray;
 }
 
-.form input, .form textarea{
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #333;
-}
-
-.form textarea{
-    resize: vertical;
-}
-
-.form button{
-    padding: 10px;
-    font-size: 20px;
+#ContactMe .btn {
     background-color: #daa520;
     color: white;
     border: none;
-    border-radius: 5px;
-    cursor: grab;
     transition: background-color 0.3s ease;
-
 }
 
-.form button:hover{
+#ContactMe .btn:hover {
     background-color: #ff8c00;
 }
 
-.contact-container h2{
-    color: #daa520;
-}
 /* --- END of Contact Me Style Section --- */
+
 
 
 /* --- Footer Style Section --- */
